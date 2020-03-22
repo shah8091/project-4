@@ -23,97 +23,97 @@ let myArray = [];
 let interval;
 let categoryIndex;
 
-// questions and options and  answer and answer description
+// questions and options and  answer.
 // array of objects
 myApp = [
     {
-        category: "Human Body",
+        category: " About Bangladesh",
         quizWrap: [
             {
-                question: "Which organ belongs to the Digestive System:",
-                options: ["Thymus", "Stomach", "Heart", "Trachea"],
-                answer: 1,
-            },
-            {
-                question: "Adults have fewer bones than babies do.",
-                options: ["true", "false"],
-                answer: 0,
-                description: "Lots of bones start out as several fragments at birth,then fuse together into a single bone later in life"
-            },
-            {
-                question: "Our human body has.........",
-                options: ["206 bones", "210 bones", "306 bones", "706 bones"],
+                question: "In what year Bangladesh became Independent?",
+                options: ["1971", "1872", "1953", "1657"],
                 answer: 0,
             },
             {
-                question: "Your fingernails and hair keep growing after you die.",
-                options: ["true", "false"],
-                answer: 1,
-                description: "They really don't"
+                question: "What is the capital city in Bangladesh?",
+                options: ["Dhaka", "Bogra", "chittagong", "Rajshahi"],
+                answer: 0,
+
             },
             {
-                question: "One important function of bones is to produce.",
-                options: ["tendons", "ligaments", "blood cells", "cartilage"],
+                question: "what is the national flower of Bangladesh?",
+                options: ["rose", "water lily", "tulip", "sun flower"],
+                answer: 1,
+            },
+            {
+                question: "what is the main reigion practiced in Bangladesh?",
+                options: ["Hindu", "Islam", "Buddism", "Christianism"],
+                answer: 1,
+
+            },
+            {
+                question: "In which continent is Bangladesh located?",
+                options: ["Africa", "Asia", "North America", "South America"],
+                answer: 1,
+            }
+        ]
+    },
+
+    {
+        category: "Sports in Bangladesh",
+        quizWrap: [
+            {
+                question: "whats the national sports in Bangladesh?",
+                options: ["Kabadi", "Badminton", "Cricket", "Basketball"],
+                answer: 0,
+            },
+            {
+                question: "Whats the most popular sports in Bangladesh?",
+                options: ["Badminton", "Cricket", "vollyBall", "BasketBall"],
+                answer: 1,
+
+            },
+            {
+                question: "How many nations participate in the 2014 kabaddi world cup?",
+                options: ["12", "10", "11", "17"],
                 answer: 2,
+            },
+            {
+                question: "In cricket how many players play in each team ?",
+                options: ["11", "9", "21", "20"],
+                answer: 0,
             }
         ]
     },
 
     {
-        category: "Internation - Current Affairs",
+        category: "About Pennsylvania",
         quizWrap: [
             {
-                question: "Which of the following has become the first country to make all forms of public transport free?",
-                options: ["Monaco", "India", "Japan", "Singapore"],
-                answer: 3,
+                question: "Whats the capital city of Pennsylvania?",
+                options: ["Philadelphia", "Pittsburg", "Harrisburg", "Doylestown"],
+                answer: 2,
             },
             {
-                question: "Which country is to host Commonwealth shooting, archery events in 2022?",
-                options: ["Australia", "India", "Brunei", "Cameroon"],
-                answer: 3,
-                description: 'India to host Commonwealth shooting, archery events at Chandigarh in January 2022'
+                question: "What is the nickname of pennsylvania?",
+                options: ["Garden state", "Empire state", "keystone state", "sunshine state"],
+                answer: 2,
             },
             {
-                question: "26 The International Criminal Police Organisation (INTERPOL) has its headquarters at",
-                options: ["Montreal", "Bonn", "Paris", "London"],
-                answer: 2
+                question: "What is Pennsylvania's population in 2019?",
+                options: ["12 milliom", "20 million", "5 million", "200k"],
+                answer: 0,
             },
             {
-                question: "30 Where is the headquarters of Botanical Survey of India located?",
-                options: ["Kolkata", "Lucknow", "Ootacmund", "Darjeeling"],
-                answer: 0
-            }
-        ]
-    },
-
-    {
-        category: "Computer Awareness",
-        quizWrap: [
-            {
-                question: "How many bytes are equal to one kilobyte?",
-                options: ["1050", "1024", "1022", "1000"],
-                answer: 1
-            },
-            {
-                question: "Which of the following is not an input device?",
-                options: ["answerboard", "Monitor", "Joystick", "Microphone"],
-                answer: 1,
-            },
-            {
-                question: "The most powerful computer is_________",
-                options: ["super computer", "micro computer", "mini computer", "all of these"],
-                answer: 0
-            },
-            {
-                question: "Which of the following memories needs refresh ?",
-                options: ["drom", "rom", "sram", "all of these"],
-                answer: 0
+                question: "Who is the Governor of pennsylvania ?",
+                options: ["Tom Wolf", "Tony", "Anthony B", "Josh .H"],
+                answer: 0,
             }
             ,
             {
-                question: "Every computer connected to the Internet is identified by a unique four-part string, known as",
-                options: ["IP address", "Host name", "Domain name", "None of the above"],
-                answer: 0
+                question: "Whats the median Household income?",
+                options: ["30k", "80k", "60k", "100k"],
+                answer: 2,
             }
         ]
     },
@@ -137,9 +137,9 @@ myApp = [
                 answer: 2
             },
             {
-                question: "Who was the first Test Centurion in India Cricket?",
-                options: ["C.K. Naidu", "Lala Amarnath", "Vinu Mankad", "Mansur Ali Pataudi"],
-                answer: 1
+                question: "Which team is Tom Brady on?",
+                options: ["Jaguars", "Texans", "patriots", "Falcons"],
+                answer: 0
             },
             {
                 question: "10 The number of players in each side in Water Polo is",
